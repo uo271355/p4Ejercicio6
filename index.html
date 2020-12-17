@@ -1,0 +1,188 @@
+<!DOCTYPE  html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 6</title>
+<link rel="stylesheet" href="Ejercicio6.css">
+</head>
+<body>
+<header>
+<h1>Gestion de la base de datos</h1>
+</header>
+
+<section class='calculadora'>
+<form action='#' method='post' name='clase' enctype='multipart/form-data'>
+<h2>Crear base de datos</h2>
+<input type='submit' class='button' name ='crearB' value='Crear'/>
+<h2>Crear una tabla</h2>
+<input type='submit' class='button' name ='crearT' value='Crear'/>
+<h2>Insertar Datos</h2>
+<p class='info'>Rellena los datos</p>
+<div>
+<label for='dni'>DNI:		</label> 
+<input type='text' id='dni' name ='dni'/>
+</div>
+
+<div>
+<label for='nombre'>Nombre:		</label> 
+<input type='text' id='nombre' name ='nombre'/>
+</div>
+
+<div>
+<label for='apellidos'>Apellidos:		</label> 
+<input type='text' id='apellidos' name ='apellidos'/>
+</div>
+
+<div>
+<label for='correo'>Correo electronico:		</label> 
+<input type='text' id='correo' name ='correo'/>
+</div>
+
+<div>
+<label for='telefono'>Telefono:		</label> 
+<input type='text' id='telefono' name ='telefono'/>
+</div>
+
+<div>
+<label for='edad'>Edad:		</label> 
+<input type='text' id='edad' name ='edad'/>
+</div>
+
+<div>
+<label for='genero'>Genero [Mujer|Hombre|No binario|Otro]:		</label> 
+<input type='text' id='genero' name ='genero'/>
+</div>
+
+<div>
+<label for='nivel'>Nivel informatico [0-10]:		</label> 
+<input type='text' id='nivel' name ='nivel'/>
+</div>
+
+<div>
+<label for='tiempo'>Tiempo invertido (s):		</label> 
+<input type='text' id='tiempo' name ='tiempo'/>
+</div>
+
+<div>
+<label for='encuesta'>¿Se ha realizado correctamente? [Si|No]:		</label> 
+<input type='text' id='encuesta' name ='encuesta'/>
+</div>
+
+<div>
+<label for='comentarios'>Comentarios:		</label> 
+<input type='text' id='comentarios' name ='comentarios'/>
+</div> 
+
+<div>
+<label for='mejoras'>Mejoras en la aplicacion:		</label> 
+<input type='text' id='mejoras' name ='mejoras'/>
+</div> 
+
+<div>
+<label for='valoracion'>Valoracion de la aplicacion [0-10]:		</label> 
+<input type='text' id='valoracion' name ='valoracion'/>
+</div> 
+
+
+<input type='submit' class='button' name ='insertar' value='Insertar'/>
+
+<h2>Buscar en una tabla</h2>
+<p class='info'>Rellena el campo para realizar la busqueda</p>
+<div>
+
+<label for='dniB'>DNI:		</label> 
+<input type='text' id='dniB' name ='dniB'/>
+</div>
+<input type='submit' class='button' name ='buscar' value='Buscar'/>
+
+<h2>Modificar datos en la tabla</h2>
+<p class='info'>Rellena el campo para buscar donde se hara la modificacion</p>
+<div>
+<label for='dniM'>DNI:		</label> 
+<input type='text' id='dniM' name ='dniM'/>
+</div>
+<p class='info'>Rellena los campos que se van a modificar</p>
+<div>
+<label for='nombreM'>Nombre:		</label> 
+<input type='text' id='nombreM' name ='nombreM'/>
+</div>
+
+<div>
+<label for='apellidosM'>Apellidos:		</label> 
+<input type='text' id='apellidosM' name ='apellidosM'/>
+</div>
+
+<div>
+<label for='correoM'>Correo electronico:		</label> 
+<input type='text' id='correoM' name ='correoM'/>
+</div>
+
+<div>
+<label for='telefonoM'>Telefono:		</label> 
+<input type='text' id='telefonoM' name ='telefonoM'/>
+</div>
+
+<div>
+<label for='edadM'>Edad:		</label> 
+<input type='text' id='edadM' name ='edadM'/>
+</div>
+
+<div>
+<label for='generoM'>Genero [Mujer|Hombre|No binario|Otro]:		</label> 
+<input type='text' id='generoM' name ='generoM'/>
+</div>
+
+<div>
+<label for='nivelM'>Nivel informatico [0-10]:		</label> 
+<input type='text' id='nivelM' name ='nivelM'/>
+</div>
+
+<div>
+<label for='tiempoM'>Tiempo invertido (s):		</label> 
+<input type='text' id='tiempoM' name ='tiempoM'/>
+</div>
+
+<div>
+<label for='encuestaM'>¿Se ha realizado correctamente? [Si|No]:		</label> 
+<input type='text' id='encuestaM' name ='encuestaM'/>
+</div>
+
+<div>
+<label for='comentariosM'>Comentarios:		</label> 
+<input type='text' id='comentariosM' name ='comentariosM'/>
+</div> 
+
+<div>
+<label for='mejorasM'>Mejoras en la aplicacion:		</label> 
+<input type='text' id='mejorasM' name ='mejorasM'/>
+</div> 
+
+<div>
+<label for='valoracionM'>Valoracion de la aplicacion [0-10]:		</label> 
+<input type='text' id='valoracionM' name ='valoracionM'/>
+</div> 
+<input type='submit' class='button' name ='modificar' value='Modificar'/>
+
+<h2>Eliminar en una tabla</h2>
+<p class='info'>Rellena el campo para eliminar lo que desea</p>
+<div>
+<label for='dniE'>DNI:		</label> 
+<input type='text' id='dniE' name ='dniE'/>
+</div>
+<input type='submit' class='button' name ='eliminar' value='Eliminar'/>
+
+
+<h2>Generar un Informe</h2>
+<input type='submit' class='button' name ='generar' value='Generar'/>
+
+<h2>Exporta tus datos</h2>
+<input type='submit' class='button' name ='exportar' value='Exportar'/>
+
+<h2>Carga tus datos</h2>
+<label for='datos'>Selecciona tu archivo:		</label> 
+<input type="file" id="datos" name="datos" /> 
+<input type='submit' class='button' name ='cargar' value='Cargar'/>
+</form>
+</section>
+</body>
+</html>

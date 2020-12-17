@@ -1,0 +1,42 @@
+body{
+	box-sizing: border-box;
+    background-color:white;
+    color:black;
+	margin: 25px 50px;
+}
+header{
+	padding:30px;
+	background:#ECDFFF;
+	text-align:center;
+	color:black;
+}
+h2{
+	background:#EFDFFF;
+	text-align:center;
+	color:black;
+}
+.info{
+	background:#FFDFFF;
+    color:black;
+}
+h4{
+	 text-align:center;
+	background:#ACA0EA;
+    color:black;
+}
+h5{
+	color:black;
+	background:#9EDF5C;
+}
+.button{
+	width:120px;
+	height:40px;
+	background:#ACA0EA;
+    color:black;
+}
+.error{
+    color:red;
+}
+div{
+	padding-bottom: 1em;
+}
